@@ -1,8 +1,8 @@
 <?php
   session_start();
 
-  $host = 'localhost';
-  $username = 'root';
+  $host = getenv('IP');
+  $username = getenv('C9_USER');
   $pass = '';
   $dbname = 'cheapomail_db';
  
